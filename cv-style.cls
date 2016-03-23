@@ -209,3 +209,4 @@
     pdfauthor=Alejandro Pérez Londoño,
     pdfsubject=CV/Resume%
     }
+\RequirePackage{fontawesome}
