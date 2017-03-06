@@ -1,7 +1,7 @@
-compile_pdf:
-  image: tianon/latex
+build:
+  image: blang/latex
   script:
-    - latexmk -pdf main.tex
+    - pdflatex main.tex
   artifacts:
     paths:
       - main.pdf
