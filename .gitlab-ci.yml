@@ -1,5 +1,5 @@
 build:
-  image: blang/latex
+  image: danieletorelli/xetex
   script:
     - pdflatex main.tex
   artifacts:
