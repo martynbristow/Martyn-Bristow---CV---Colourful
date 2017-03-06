@@ -1,7 +1,7 @@
 build:
   image: danieletorelli/xetex
   script:
-    - pdflatex main.tex
+    - xelatex main.tex
   artifacts:
     paths:
       - main.pdf
