@@ -1,5 +1,5 @@
 build:
-  image: danieletorelli/xetex
+  image: jpbernius/xelatex 
   script:
     - xelatex main.tex
   artifacts:
