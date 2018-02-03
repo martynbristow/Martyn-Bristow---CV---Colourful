@@ -9,7 +9,11 @@ help:
 	@echo " - clean"
 	@echo " - all"
 	@echo " - debug"
+	@echo " - cv - Build my CV in Docker"
 	@echo " - help"
+
+cv:
+	docker run -v $$PWD:/usr/local/src -w /usr/local/src jpbernius/xelatex xelatex main.tex
 
 pdfs: $(PDF)
 	$(CC) -o $@ $^
