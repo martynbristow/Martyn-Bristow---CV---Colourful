@@ -23,7 +23,7 @@ deploy:
     - mkdir -p ~/.ssh
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
 
-    - rsync -avz main.pdf martyn@martynbristow.co.uk:/var/www/html/static/martyn-bristow.pdf
+    - rsync -avz main.pdf martyn@martynbristow.co.uk:/var/www/martynbristow.co.uk/html/static/martyn-bristow.pdf
   environment:
     name: martyn
     url: http://martynbristow.co.uk/static/martyn-bristow.pdf
