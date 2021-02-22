@@ -1,3 +1,7 @@
 # Martyn Bristow - CV
 
-CV for Martyn Bristow, written in LaTeX, mainted on Overleaf: https://git.overleaf.com/4658626qsjyxn
+**Martyn Bristow - Software Developer - Agile Coach - SAFe Release Train Engineer**
+
+My CV as a PDF: http://martynbristow.co.uk/static/martyn-bristow.pdf
+
+Contact: martyn@hey.com
